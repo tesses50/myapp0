@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install CrossLang
-        uses: git.tesses.org/tesses50/setup-crosslang@v1
+        uses: tesses50/setup-crosslang@v1
         run: |
           crosslang build
           crosslang upload-package --token="${{ secrets.CPKG_KEY }}" --host="https://cpkg.tesseslanguage.com/"

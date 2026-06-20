@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install CrossLang
-        uses: https://git.tesses.org/tesses50/setup-crosslang@v1
+        uses: tesses50/setup-crosslang@v1
       - name: Build and Push
         run: |
           crosslang build

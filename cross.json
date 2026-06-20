@@ -1,0 +1,11 @@
+{
+	"$schema": "https:\/\/crosslang.tesseslanguage.com\/\/schema\/cross-json-schema.json",
+	"info": {
+		"description": "My App 0",
+		"short_name": "myapp0",
+		"short_name_pretty": "My App 0",
+		"type": "console"
+	},
+	"name": "myapp0",
+	"version": "1.0.0.0-dev"
+}
